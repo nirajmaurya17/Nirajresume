@@ -13,7 +13,10 @@ body{
 }
 .allign{
     text-align: center;
-    padding: 1rem 0rem;
+    font-size: xx-large;
+    padding: 0.5rem 0rem;
+    
+   
     
 }
 
@@ -27,7 +30,7 @@ body{
 .inline{
     display: inline;
     padding: 1rem 2rem;
-    padding-inline-start: 60px;
+    padding-inline-start: 50px;
     text-align: center;
     color: antiquewhite;
        
@@ -36,6 +39,7 @@ body{
 .link{
     color: antiquewhite;
     text-decoration: none;
+    
 }
 
 .section {
@@ -47,4 +51,19 @@ body{
     padding-top: 1rem;
     padding-left: 1rem;
     
+    
+}
+
+.offwhite {
+    background-color:#e5e7eb;
+    padding: 1rem 1rem;
+}
+
+.white {
+    background-color: white;
+    padding: 1rem 1rem;
+}
+.link.active{
+    font-weight: 1000;
+    font-size: large;
 }
